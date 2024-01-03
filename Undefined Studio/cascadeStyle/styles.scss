@@ -21,7 +21,6 @@
 
 }
 
-
 .header
 
 {
@@ -30,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     height:12%;
+    
     
 
     /*Edit scale and position of logo menu*/
@@ -62,9 +62,56 @@
         gap:20px;
         font-family: 'Grandeur';
         font-size: 25.7px;
+
+    
     }   
 
 }
+
+/*Menu controllers & hovers*/
+.header_menu
+{
+    height:12%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.header_services1:hover
+{
+    height:12%;
+    color:black;
+    transition:0.5s;
+}  
+
+.header_services2:hover
+{
+        height:12%;
+        color:black;
+        transition:0.5s;
+}
+
+
+.header_services3:hover
+    {
+        height:12%;
+        color:black;
+        transition:0.5s;
+    }
+
+    .header_services4:hover
+    {
+        height:12%;
+        color:black;
+        transition:0.5s;
+    }
+
+    .header_services5:hover
+    {
+        height:12%;
+        color:black;
+        transition:0.5s;
+    }
+
 
 /*Home principal content container*/
 .principal_content
@@ -103,6 +150,16 @@
         color:#fff;
         justify-content: center;
         margin-bottom:10px;
+
+        .inner_text1
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            margin-left:5px;
+
+        }
     }
     .text_Content2
     {
@@ -127,9 +184,62 @@
 
     }
 }
+/*Branding Content area*/
+
+.branding_container
+{
+    height:1400px;
+    
+}
+/*footer info styles*/
 
 .footer
 {
     height:8%;
+    background-color: #FF5440;
+    color:#fff;
+    display: flex;
+    
+
+    .footer_info1
+    {
+        height:76px;
+        width:35%;
+        position:absolute;
+        right:1%;
+        margin-right:25px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .footer_info2
+    {
+
+        height:76px; 
+        width:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_info3
+    {
+
+        height:76px; 
+        width:100px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .footer_info4
+    {
+
+        height:76px; 
+        width:100px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
 }
 

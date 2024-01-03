@@ -45,6 +45,43 @@
   font-size: 25.7px;
 }
 
+/*Menu controllers & hovers*/
+.header_menu {
+  height: 12%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_services1:hover {
+  height: 12%;
+  color: black;
+  transition: 0.5s;
+}
+
+.header_services2:hover {
+  height: 12%;
+  color: black;
+  transition: 0.5s;
+}
+
+.header_services3:hover {
+  height: 12%;
+  color: black;
+  transition: 0.5s;
+}
+
+.header_services4:hover {
+  height: 12%;
+  color: black;
+  transition: 0.5s;
+}
+
+.header_services5:hover {
+  height: 12%;
+  color: black;
+  transition: 0.5s;
+}
+
 /*Home principal content container*/
 .principal_content {
   /*Containers of video and text home*/
@@ -72,6 +109,13 @@
   justify-content: center;
   margin-bottom: 10px;
 }
+.principal_content .text_Content1 .inner_text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  margin-left: 5px;
+}
 .principal_content .text_Content2 {
   display: flex;
   height: 300px;
@@ -90,6 +134,46 @@
   justify-content: center;
 }
 
+/*Branding Content area*/
+.branding_container {
+  height: 1400px;
+}
+
+/*footer info styles*/
 .footer {
   height: 8%;
+  background-color: #FF5440;
+  color: #fff;
+  display: flex;
+}
+.footer .footer_info1 {
+  height: 76px;
+  width: 35%;
+  position: absolute;
+  right: 1%;
+  margin-right: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer .footer_info2 {
+  height: 76px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_info3 {
+  height: 76px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_info4 {
+  height: 76px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
